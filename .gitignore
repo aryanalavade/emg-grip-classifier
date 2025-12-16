@@ -1,0 +1,65 @@
+# ----------------------------
+# OS / Editor
+# ----------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+.env
+
+# ----------------------------
+# Data (DO NOT COMMIT RAW EMG)
+# ----------------------------
+*.csv
+*.tsv
+*.mat
+*.npy
+*.npz
+data/
+data_raw/
+data_labeled/
+
+# ----------------------------
+# Trained models / artifacts
+# ----------------------------
+models/
+*.pkl
+*.joblib
+*.pt
+*.h5
+
+# ----------------------------
+# Figures / outputs
+# ----------------------------
+figures/
+outputs/
+
+# ----------------------------
+# Arduino / embedded
+# ----------------------------
+*.hex
+*.elf
+*.bin
+*.map
+build/
+.tmp/
+
+# ----------------------------
+# Old / experimental code
+# ----------------------------
+old codes/
+old_codes/
+scratch/
