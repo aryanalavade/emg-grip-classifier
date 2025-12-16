@@ -15,8 +15,8 @@ Includes data collection, feature extraction, model training, and real-time pred
 
 ## Repository Structure
 
-```text
-.
+```
+
 ├── arduino/
 │   └── emg_stream.ino
 ├── src/
@@ -26,6 +26,7 @@ Includes data collection, feature extraction, model training, and real-time pred
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
 
 ## Setup
 Create and activate a virtual environment:
@@ -33,6 +34,7 @@ Create and activate a virtual environment:
 python -m venv .venv
 source .venv/bin/activate   # macOS/Linux
 ```
+
 Install dependencies:
 ```
 pip install -r requirements.txt
